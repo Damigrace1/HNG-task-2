@@ -17,6 +17,7 @@ Follow these steps to set up the project locally:
 1. **Clone the repository:**
 
    git clone https://github.com/Damigrace1/HNG-task-2.git
+   
    cd hngtask2
 
 2. **Install Flutter dependencies**
@@ -32,9 +33,11 @@ Follow these steps to set up the project locally:
    ![ProductsList](assets/screenshots/ppage.png)
 
 
-- **APK Download:** (https://appetize.io/app/iaoqrikxiv72iyaix45krrj5ey?device=pixel7&osVersion=13.0).
+- **APK Download:** (https://appetize.io/app/android/com.example.hngt2?device=pixel7&osVersion=13.0).
 - **Contact Information:**
 - **Name**:`Damilare Ogunwehin`
 - **Slack Username**:`White Developer`
 - **Email**:`whitedeveloper1@gmail.com`
 - **GitHub**:(https://github.com/Damigrace1)
+
+
