@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:hngt2/dio_provider.dart';
+import 'package:hngt2/utils/dio_provider.dart';
 import 'package:hngt2/views/pages/products_list.dart';
 
-import 'custom_interceptor.dart';
+import 'utils/custom_interceptor.dart';
 
 void main() {
   runApp(const MyApp());

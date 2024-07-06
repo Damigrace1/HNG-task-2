@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 
-import 'secrets.dart';
+import '../secrets.dart';
 
 class DioProvider {
 

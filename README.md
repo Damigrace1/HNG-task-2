@@ -1,16 +1,40 @@
-# hngt2
+# HNG Task 2
 
-A new Flutter project.
+This is a single page mobile app which calls a Timbu Api to get listed products and populates the "All Products" screen
+with the details of these products including product image.
 
-## Getting Started
+- **Usage:**
+1. All Products: Displays list of products
 
-This project is a starting point for a Flutter application.
+## Features
+- Product listing
+- Search products
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Follow these steps to set up the project locally:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. **Clone the repository:**
+
+   git clone https://github.com/Damigrace1/HNG-task-2.git
+   cd hngtask2
+
+2. **Install Flutter dependencies**
+   flutter pub get
+
+3. **Run the app**
+   flutter run
+
+
+## Screenshots
+
+1. **Products List**
+   ![ProductsList](assets/screenshots/ppage.png)
+
+
+- **APK Download:** (https://appetize.io/app/iaoqrikxiv72iyaix45krrj5ey?device=pixel7&osVersion=13.0).
+- **Contact Information:**
+- **Name**:`Damilare Ogunwehin`
+- **Slack Username**:`White Developer`
+- **Email**:`whitedeveloper1@gmail.com`
+- **GitHub**:(https://github.com/Damigrace1)

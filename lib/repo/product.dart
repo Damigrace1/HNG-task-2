@@ -1,4 +1,4 @@
-import 'package:hngt2/dio_provider.dart';
+import 'package:hngt2/utils/dio_provider.dart';
 import 'package:hngt2/models/product/product.dart';
 import 'package:hngt2/secrets.dart';
 

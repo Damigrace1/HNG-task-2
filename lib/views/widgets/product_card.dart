@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:hngt2/models/product/photo.dart';
 import 'package:hngt2/models/product/product.dart';
+import 'package:hngt2/utils/extensions.dart';
 
 class ProductCard extends StatelessWidget {
 
@@ -51,7 +52,10 @@ class ProductCard extends StatelessWidget {
                   child: Container(
                     padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
                     decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(8),
+                      borderRadius: BorderRadius.only(
+                          bottomLeft: Radius.circular(8),
+                          bottomRight: Radius.circular(8)
+                      ),
                       color: Theme.of(context).primaryColor.withOpacity(0.05),
                     ),
 
@@ -78,7 +82,8 @@ class ProductCard extends StatelessWidget {
                           ),
                         )),
                         Text(
-                          '₦${product.current_price?.firstOrNull?.NGN?.firstOrNull.toString() ?? ''}',
+                          '₦${product.current_price?.firstOrNull?.NGN?.firstOrNull
+                          .toString().split('.').first.thousandsFormatter?? ''}',
                           style: const TextStyle(
                               color: Colors.deepOrange,
                               fontSize: 18,
@@ -92,8 +97,8 @@ class ProductCard extends StatelessWidget {
           ),
         ),
         const Positioned(
-            top: 4,
-            left: 16,
+            top: 12,
+            left: 12,
             child: CircleAvatar(
               radius: 12,
                 backgroundColor: Colors.pink,

@@ -10,8 +10,3 @@ class Photo {
   }
 }
 
-extension PE on Photo {
-
-  String get link =>
-     '${ AppSecrets.baseUrl}images/$url';
-}
