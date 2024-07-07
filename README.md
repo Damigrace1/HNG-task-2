@@ -39,6 +39,6 @@ Follow these steps to set up the project locally:
 - **Name**:`Damilare Ogunwehin`
 - **Slack Username**:`White Developer`
 - **Email**:`whitedeveloper1@gmail.com`
-- **GitHub**:(https://github.com/Damigrace1)
+- **GitHub**:(https://github.com/Damigrace1/HNG-task-2)
 
 
