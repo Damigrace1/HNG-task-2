@@ -33,7 +33,7 @@ Follow these steps to set up the project locally:
    ![ProductsList](assets/screenshots/ppage.png)
 
 
-- **Appetize Link:** (https://appetize.io/app/android/com.example.hngt2?device=pixel7&osVersion=13.0).
+- **Appetize Link:** (https://appetize.io/app/b_qgsleqquctpdjpw5mjbk7xuep4).
 - **APK Download:** (https://drive.google.com/file/d/1nYypYeAk6vp4uvr3fhR3hFPpPbIqzCOL/view?usp=drivesdk).
 - **Contact Information:**
 - **Name**:`Damilare Ogunwehin`
